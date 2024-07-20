@@ -1,0 +1,28 @@
+{
+  "name": "server-deploy-practise",
+  "version": "1.0.0",
+  "description": "Express based backend server ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage",
+    "test-watch": "jest --watchAll --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aaron-imbrock/server-deploy-practise.git"
+  },
+  "author": "Aaron Imbrock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaron-imbrock/server-deploy-practise/issues"
+  },
+  "homepage": "https://github.com/aaron-imbrock/server-deploy-practise#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
