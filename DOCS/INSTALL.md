@@ -9,7 +9,7 @@ Create a new repository at GitHub.
 
 Clone this repo to your local machine.
 
-Immediately create a “dev” branch to do your work in git checkout -b dev
+Immediately create a “dev” branch to do your work: `git checkout -b dev`
 
 ## Build out project
 
